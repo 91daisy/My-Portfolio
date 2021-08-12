@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import url('reset.css');
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import '_header',
+	'_section_home',
+	'_section_aboutme',
+	'_section_uxdesign',
+	'_section_portfolio',
+	'_section_contact',
+	'_footer';
+
+body {
+	font-family: 'Do Hyeon', sans-serif;
+	color: #333;
+	box-sizing: border-box;
+
+	::selection {
+		color: #fff;
+		background-color: #333;
+	}
+
+	#wrap {
+		width: 100%;
+		min-width: 1200px;
+
+		> .loading {
+			position: fixed;
+			/*기준점이 무조건 body*/
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			/* 전체화면을 꽉 차게하는 방법 */
+			background-color: #fff;
+			z-index: 1000;
+
+			> p {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 64px;
+				height: 64px;
+				margin-left: -32px;
+				margin-top: -32px;
+				text-indent: -9999px;
+				background-image: url(../images/rwd_home_icon_loading.gif);
+			}
+		}
+
+		> section {
+			.title {
+				font-size: 120px;
+				font-weight: 900;
+				color: #fff;
+				text-shadow: 2px 0 0 #333, -2px 0 0 #333, 0 2px 0 #333, 0 -2px 0 #333, 1px 1px 0 #333,
+					-1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+			}
+		}
+	}
+}

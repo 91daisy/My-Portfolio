@@ -1,0 +1,109 @@
+body {
+	#wrap {
+		section#aboutme {
+			position: relative;
+			width: 100%;
+			height: 1300px;
+			margin: 0 auto;
+			> .frame {
+				position: absolute;
+				left: 50%;
+				top: 0;
+				margin-left: -620px;
+				display: block;
+				width: 396px;
+				height: 645px;
+				background-image: url(./../images/aboutme_img.jpg);
+			}
+			> .title {
+				position: absolute;
+				left: 50%;
+				top: 0;
+			}
+			> div.aboutme_content_right {
+				position: absolute;
+				left: 50%;
+				top: 345px;
+				text-align: right;
+				margin-right: 30px;
+				> h2.subject {
+					font-size: 35px;
+				}
+				> p.text {
+					font-size: 30px;
+				}
+			}
+			> div.aboutme_content_center {
+				position: absolute;
+				left: 50%;
+				top: 700px;
+				margin-left: -444px;
+				text-align: center;
+				font-size: 35px;
+			}
+			> div.aboutme_skill {
+				position: absolute;
+				left: 50%;
+				top: 830px;
+				margin-left: -530px;
+				display: flex;
+				> .aboutme_skill_work {
+					width: 570px;
+					margin-right: 70px;
+					> h2.subject {
+						margin-bottom: 30px;
+						font-size: 35px;
+						text-align: center;
+					}
+					> img {
+						width: 537px;
+						height: 270px;
+					}
+				}
+				> .aboutme_skill_design {
+					width: 460px;
+					> h2.subject {
+						margin-bottom: 30px;
+						font-size: 35px;
+						text-align: center;
+					}
+					> img {
+						width: 425px;
+						height: 101px;
+						margin-top: 90px;
+					}
+				}
+			}
+			> div.aboutme_content_left {
+				position: absolute;
+				left: 50%;
+				top: 150px;
+				margin-left: -170px;
+				> .name {
+					position: relative;
+					display: inline-block;
+					font-size: 50px;
+					margin-bottom: 20px;
+				}
+				> .name:before {
+					position: absolute;
+					left: 50%;
+					top: 0;
+					width: 110%;
+					height: 30px;
+					background-color: #aaa;
+					transform: translateX(-50%);
+					opacity: 0.7;
+					content: '';
+					z-index: -10;
+				}
+				> h3.birth_place {
+					font-size: 20px;
+				}
+				> p {
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}

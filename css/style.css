@@ -1,0 +1,518 @@
+@charset "UTF-8";
+@import url("reset.css");
+@import url(c:\Users\ASUS\Desktop\1\0708_이력서포폴\0_프로필사이트\프로필사이트-임아영\css\reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+body #wrap header.active {
+  top: 0;
+  background-color: white;
+}
+
+body #wrap header {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 3px solid #e0e0e0;
+}
+
+body #wrap header > .container > .logo {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  background-size: contain;
+  background-image: url(./../images/logo_main.png);
+}
+
+body #wrap header > .container > nav {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+body #wrap header > .container > nav > .gnb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body #wrap header > .container > nav > .gnb > li {
+  width: 100px;
+  margin-right: 20px;
+}
+
+body #wrap header > .container > nav > .gnb > li > a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 900;
+  text-align: center;
+  font-size: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body #wrap header > .container > nav > .gnb > li > a:hover {
+  color: #e0e0e0;
+  background-color: #333;
+}
+
+body #wrap header > .container > nav > .gnb > li.on > a {
+  color: #e0e0e0;
+  background-color: #333;
+}
+
+body #wrap section#home {
+  width: 100%;
+  height: 774px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(./../images/img_main.jpg);
+}
+
+body #wrap section#home > .container {
+  position: relative;
+}
+
+body #wrap section#home > .container > p {
+  position: absolute;
+  right: 30px;
+  color: #fff;
+  font-size: 100px;
+  text-align: right;
+}
+
+body #wrap section#home > .container > p:nth-child(1) {
+  top: 430px;
+  font-size: 60px;
+}
+
+body #wrap section#home > .container > p:nth-child(2) {
+  top: 500px;
+  color: #333;
+}
+
+body #wrap section#home > .container > p:nth-child(3) {
+  top: 600px;
+}
+
+body #wrap section#aboutme {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  margin: 0 auto;
+}
+
+body #wrap section#aboutme > .frame {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -620px;
+  display: block;
+  width: 396px;
+  height: 645px;
+  background-image: url(./../images/aboutme_img.jpg);
+}
+
+body #wrap section#aboutme > .title {
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+body #wrap section#aboutme > div.aboutme_content_right {
+  position: absolute;
+  left: 50%;
+  top: 345px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_right > h2.subject {
+  font-size: 35px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_right > p.text {
+  font-size: 30px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_center {
+  position: absolute;
+  left: 50%;
+  top: 700px;
+  margin-left: -444px;
+  text-align: center;
+  font-size: 35px;
+}
+
+body #wrap section#aboutme > div.aboutme_skill {
+  position: absolute;
+  left: 50%;
+  top: 830px;
+  margin-left: -530px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_work {
+  width: 570px;
+  margin-right: 70px;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_work > h2.subject {
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_work > img {
+  width: 537px;
+  height: 270px;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_design {
+  width: 460px;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_design > h2.subject {
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+body #wrap section#aboutme > div.aboutme_skill > .aboutme_skill_design > img {
+  width: 425px;
+  height: 101px;
+  margin-top: 90px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_left {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  margin-left: -170px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_left > .name {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_left > .name:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 110%;
+  height: 30px;
+  background-color: #aaa;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0.7;
+  content: '';
+  z-index: -10;
+}
+
+body #wrap section#aboutme > div.aboutme_content_left > h3.birth_place {
+  font-size: 20px;
+}
+
+body #wrap section#aboutme > div.aboutme_content_left > p {
+  font-size: 30px;
+}
+
+body #wrap section#uxdesign {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
+  background-position: center center;
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-image: url(./../images/ux_bg.jpg);
+}
+
+body #wrap section#uxdesign > .title {
+  position: absolute;
+  left: 50%;
+  top: -72px;
+  margin-left: -575px;
+}
+
+body #wrap section#uxdesign > .uxdesign_cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -228px 0 0 -448px;
+}
+
+body #wrap section#uxdesign > .uxdesign_cont > .uxdesign_text {
+  text-align: center;
+  font-size: 30px;
+}
+
+body #wrap section#portfolio {
+  position: relative;
+  width: 1200px;
+  height: 1300px;
+  margin: 0 auto;
+}
+
+body #wrap section#portfolio > .title {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -243px;
+}
+
+body #wrap section#portfolio > .portfolio_bg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 300;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body #wrap section#portfolio > .portfolio_bg > .portfolio_img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 310;
+  margin: -400px 0 5px -450px;
+  width: 820px;
+  height: 800px;
+  overflow-y: scroll;
+}
+
+body #wrap section#portfolio > .portfolio_bg > .portfolio_img > .viewClose {
+  display: block;
+  height: 3000px;
+  text-indent: -9999px;
+  background-color: #fff;
+}
+
+body #wrap section#portfolio > .portfolio_list {
+  position: absolute;
+  left: 50%;
+  top: 170px;
+  margin-left: -480px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  margin: 0 auto 30px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li {
+  font-size: 30px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li:first-child:after {
+  content: '';
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li > a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li > a:hover {
+  background-color: #c5c5c5;
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li:after {
+  display: block;
+  margin: -35px 0 0 -77px;
+  color: #e0e0e0;
+  font-size: 30px;
+  content: '|';
+}
+
+body #wrap section#portfolio > .portfolio_list > .mnu > li.on > a {
+  background-color: #c5c5c5;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 960px;
+  text-align: center;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li {
+  width: calc(960px*3);
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > h3 > span {
+  font-size: 25px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > p {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > a {
+  display: inline-block;
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 25px;
+  border: 1px solid #333;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > a:hover {
+  background-color: #c5c5c5;
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li:nth-of-type(1) .view_img {
+  background-image: url(./../images/view_img_1.jpg);
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li:nth-of-type(2) .view_img {
+  background-image: url(./../images/view_img_2.jpg);
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li:nth-of-type(3) .view_img {
+  background-image: url(./../images/view_img_3.jpg);
+}
+
+body #wrap section#portfolio > .portfolio_list > .view > li > .view_img {
+  width: 960px;
+  height: 800px;
+  text-indent: -9999px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body #wrap section#contact {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+body #wrap section#contact > .title {
+  position: absolute;
+  left: 50%;
+  margin-left: -460px;
+}
+
+body #wrap section#contact > .frame {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: 160px;
+  display: block;
+  width: 329px;
+  height: 500px;
+  background-image: url(./../images/contact_img.jpg);
+}
+
+body #wrap section#contact > .contact_cont {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  margin-left: -460px;
+}
+
+body #wrap section#contact > .contact_cont > p {
+  font-size: 35px;
+}
+
+body #wrap footer {
+  width: 100%;
+  height: 100px;
+  line-height: 1.7;
+  border-top: 3px solid #333;
+}
+
+body #wrap footer > address {
+  text-align: center;
+  font-size: 25px;
+}
+
+body {
+  font-family: 'Do Hyeon', sans-serif;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body ::-moz-selection {
+  color: #fff;
+  background-color: #333;
+}
+
+body ::selection {
+  color: #fff;
+  background-color: #333;
+}
+
+body #wrap {
+  width: 100%;
+  min-width: 1200px;
+}
+
+body #wrap > .loading {
+  position: fixed;
+  /*기준점이 무조건 body*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* 전체화면을 꽉 차게하는 방법 */
+  background-color: #fff;
+  z-index: 1000;
+}
+
+body #wrap > .loading > p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin-left: -32px;
+  margin-top: -32px;
+  text-indent: -9999px;
+  background-image: url(../images/rwd_home_icon_loading.gif);
+}
+
+body #wrap > section .title {
+  font-size: 120px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 0 0 #333, -2px 0 0 #333, 0 2px 0 #333, 0 -2px 0 #333, 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+}
+/*# sourceMappingURL=style.css.map */

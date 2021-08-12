@@ -1,0 +1,30 @@
+body {
+	#wrap {
+		section#uxdesign {
+			position: relative;
+			width: 100%;
+			height: 600px;
+			margin-bottom: 50px;
+			background-position: center center;
+			background-size: 1500px;
+			background-repeat: no-repeat;
+			background-image: url(./../images/ux_bg.jpg);
+			> .title {
+				position: absolute;
+				left: 50%;
+				top: -72px;
+				margin-left: -575px;
+			}
+			> .uxdesign_cont {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin: -228px 0 0 -448px;
+				> .uxdesign_text {
+					text-align: center;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}
